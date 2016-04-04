@@ -20,10 +20,15 @@ paginate_path: "/news/page:num"
 categories_path : /categories.html
 tags_path : /tags.html
 
-get_color: 009900;
-post_color: 0000ff;
-put_color: FF0080;
-delete_color: FF9900;
+org: api-evangelist
+repo: road-map
+resource: road-map
+oauthio: qUDL4eZqKPFb41SwuWIYIwLR6jI
+
+get_color: 009900
+post_color: 0000ff
+put_color: FF0080
+delete_color: FF9900
 
 # Masthead title
 masthead_link: http://road-map.apievangelist.com
