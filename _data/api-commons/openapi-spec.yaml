@@ -38,7 +38,7 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
       post:
         summary: Add Road Map
@@ -70,7 +70,7 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
     /road-map/{host}/:
       get:
@@ -94,7 +94,7 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
     /road-map/{host}/default/:
       post:
@@ -121,7 +121,7 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
     /road-map/{road_map_id}/:
       delete:
@@ -145,7 +145,7 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
       get:
         summary: Get Road Map
@@ -165,7 +165,7 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
       put:
         summary: Update Road Map
@@ -197,11 +197,11 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
-    /road-map/{road_map_id}/keys/:
+    /road-map/{road_map_id}/history/:
       post:
-        summary: Add Road Map Key
+        summary: Add Road Map History
         description: Add road map key
         operationId: addChangeLogKey
         parameters:
@@ -224,7 +224,7 @@
           200:
             description: OK
         tags:
-        - ""
+        - Road Map
         security: []
   definitions:
     road_map:
