@@ -1,6 +1,6 @@
 [{
 	"name": "Road Map",
-	"description": "",
+	"description": "This is a reserch area to understand how companies are publishing a road map as part of their API operations. My goal is to better understand, and aggregate this knowledge into a single place, so I can learn from, as well share knowledge along the way. I have also published an API to help me organize, and use across my API portals.",
 	"image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-roadmap.png",
 	"x-open-ranking": "0",
 	"tags": ["Road Map"],
