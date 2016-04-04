@@ -1,46 +1,238 @@
 [
 	{
-		"id": "PZQobA90X4Fz24fv3raX5OkAdr3qfmaJ0C4sj3123B6oI117",
-		"name": "Road Map",
-		"categories": [
+		"category_name": "Now",
+		"building_blocks": [
 			{
-				"id": "ynaKOEXyMvpdYJed123jQcmeJrHBEuTNfspoY38rOrWK8117",
-				"name": "Future",
-				"about": "How are we planning, and communicating updates to the platform? Providing a map of how things have changed across the platform, from versioning of the API itself, to even documentation, and other aspects of platform operations.",
-				"building_blocks": [
+				"building_block_id": "funnwCRONmIEmx116Nx3DnsQmMK6rtkRpP8ooU9qnypKw117",
+				"building_block_category_id": "QVmfWjZXFGJcHxa49AGbpvx2DY1Ahi3iME3j4gXpx6w117",
+				"name": "Issues",
+				"about": "Showcasing what the open issues are, letting people know they are outstanding, saving the need to report.",
+				"category_id": "286",
+				"category": "Now",
+				"category_about": "What is currently happening on an API platform, providing a real time heart beat of the current status of API resources.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-management.png",
+				"category_hex": "#EE352E",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
 				],
 				"questions": [
 				]
 			},
 			{
-				"id": "QVmfWjZXFGJcHxa49AGbpvx2DY1Ahi3iME3j4gXpx6w117",
-				"name": "Now",
-				"about": "What is currently happening on an API platform, providing a real time heart beat of the current status of API resources.",
-				"building_blocks": [
+				"building_block_id": "aVjJsT3o4v0A1166StqNQN123exRRshKIEiuFHLmVAKagOM117",
+				"building_block_category_id": "QVmfWjZXFGJcHxa49AGbpvx2DY1Ahi3iME3j4gXpx6w117",
+				"name": "Status RSS",
+				"about": "Providing an RSS feed for a status dashboard, allowing users to receive updates on any website, and via any RSS client.",
+				"category_id": "286",
+				"category": "Now",
+				"category_about": "What is currently happening on an API platform, providing a real time heart beat of the current status of API resources.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-management.png",
+				"category_hex": "#EE352E",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
 				],
 				"questions": [
 				]
 			},
 			{
-				"id": "QYbQhXT4nMajSEN3XH123ijsIV5ip7U123d8O8qQdHG19EA117",
-				"name": "Past",
-				"about": "What has already happened with a platform, providing a single archive of all changes made to the platform, for consumers to review at any time.",
-				"building_blocks": [
+				"building_block_id": "123aruOzeh1237HX4hHV8f5oGPgpiIfLqpoluHZ2X6JfyVc117",
+				"building_block_category_id": "QVmfWjZXFGJcHxa49AGbpvx2DY1Ahi3iME3j4gXpx6w117",
+				"name": "Status Dashboard",
+				"about": "A single location, at dedicated subdomain, providing status update(s) for all API resources, giving developers a place to go when looking to see if platform is available.",
+				"category_id": "286",
+				"category": "Now",
+				"category_about": "What is currently happening on an API platform, providing a real time heart beat of the current status of API resources.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-management.png",
+				"category_hex": "#EE352E",
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-status-dashboard.png",
+				"image_width": "150",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
 				],
 				"questions": [
 				]
 			},
 			{
-				"id": "obGP7V0fhst5OfepKVR31FvsyOVCaGPjEHizl4ISCok117",
-				"name": "Notifications",
-				"about": "Notifications about changes to the road map, and status of overall operations that will impact API consumers.",
-				"building_blocks": [
+				"building_block_id": "8mvs6shIIwFin3jOlPBwUqyuwyJ5IW3ePnMxxVGvnL0117",
+				"building_block_category_id": "QVmfWjZXFGJcHxa49AGbpvx2DY1Ahi3iME3j4gXpx6w117",
+				"name": "Status History",
+				"about": "Providing a history of status, usually by day, and showing results month by month, or week by week, as long as status has been tracked for an API.",
+				"category_id": "286",
+				"category": "Now",
+				"category_about": "What is currently happening on an API platform, providing a real time heart beat of the current status of API resources.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-management.png",
+				"category_hex": "#EE352E",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
 				],
 				"questions": [
 				]
 			}
-		],
-		"questions": [
+		]
+	},
+	{
+		"category_name": "Future",
+		"building_blocks": [
+			{
+				"building_block_id": "WDwoAbd20GKJ4f39kKJvTlDnJ5pBQ7GDvP116lBSJfbLo117",
+				"building_block_category_id": "ynaKOEXyMvpdYJed123jQcmeJrHBEuTNfspoY38rOrWK8117",
+				"name": "Road Map",
+				"about": "A detailed list of what additions and changes are being planned as part of API operations, giving consumers a place where they can go learn about what is next in an APIs evolution.",
+				"category_id": "10",
+				"category": "Future",
+				"category_about": "How are we planning, and communicating updates to the platform? Providing a map of how things have changed across the platform, from versioning of the API itself, to even documentation, and other aspects of platform operations.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-management.png",
+				"category_hex": "#EE352E",
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-highway.png",
+				"image_width": "150",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "OQFgWmdrizXank2yi123jiSFsKdVEyo1cCtDE7C1aI5123U117",
+				"building_block_category_id": "ynaKOEXyMvpdYJed123jQcmeJrHBEuTNfspoY38rOrWK8117",
+				"name": "Idea Submission",
+				"about": "Allow for the submission of ideas, using the Github issue management, or other system, giving API consumers the ability to potentially contribute to the API road map.",
+				"category_id": "10",
+				"category": "Future",
+				"category_about": "How are we planning, and communicating updates to the platform? Providing a map of how things have changed across the platform, from versioning of the API itself, to even documentation, and other aspects of platform operations.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-management.png",
+				"category_hex": "#EE352E",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Past",
+		"building_blocks": [
+			{
+				"building_block_id": "JRO0sPQAgBLZ0zwhBa91Urcn4laD5RGBCpg4SHgNlEA117",
+				"building_block_category_id": "QYbQhXT4nMajSEN3XH123ijsIV5ip7U123d8O8qQdHG19EA117",
+				"name": "Change Log",
+				"about": "A detailed list of changes have been made to an API platform, giving consumers a single place they can go to learn about what changes have been made.",
+				"category_id": "287",
+				"category": "Past",
+				"category_about": "What has already happened with a platform, providing a single archive of all changes made to the platform, for consumers to review at any time.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-management.png",
+				"category_hex": "#EE352E",
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-recycling.jpg",
+				"image_width": "150",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Notifications",
+		"building_blocks": [
+			{
+				"building_block_id": "emnJvZtA3HqgAjkvm9MW5dE0sTrzBZ1mLAExGlV9C6c117",
+				"building_block_category_id": "obGP7V0fhst5OfepKVR31FvsyOVCaGPjEHizl4ISCok117",
+				"name": "Email Change Notifications",
+				"about": "Sending of email to API consumers anytime there is an addition to the road map, or a change in the status of the API platform.",
+				"category_id": "321",
+				"category": "Notifications",
+				"category_about": "Notifications about changes to the road map, and status of overall operations that will impact API consumers.",
+				"category_image": null,
+				"category_hex": null,
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "FaahI4T1zDQPYRZg7123GwDGTkEjMkwzXqC0B2rnOaZBk117",
+				"building_block_category_id": "obGP7V0fhst5OfepKVR31FvsyOVCaGPjEHizl4ISCok117",
+				"name": "SMS Change Notification",
+				"about": "Sending of SMS to API consumers anytime there is an addition to the road map, or a change in the status of the API platform.",
+				"category_id": "321",
+				"category": "Notifications",
+				"category_about": "Notifications about changes to the road map, and status of overall operations that will impact API consumers.",
+				"category_image": null,
+				"category_hex": null,
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
 		]
 	}
 ]
