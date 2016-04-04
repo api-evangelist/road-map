@@ -42,7 +42,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			},
 			"post": {
@@ -89,7 +89,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			}
 		},
@@ -123,7 +123,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			}
 		},
@@ -162,7 +162,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			}
 		},
@@ -196,7 +196,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			},
 			"get": {
@@ -223,7 +223,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			},
 			"put": {
@@ -270,13 +270,13 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			}
 		},
-		"/road-map/{road_map_id}/keys/": {
+		"/road-map/{road_map_id}/history/": {
 			"post": {
-				"summary": "Add Road Map Key",
+				"summary": "Add Road Map History",
 				"description": "Add road map key",
 				"operationId": "addChangeLogKey",
 				"parameters": [{
@@ -309,7 +309,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": [""],
+				"tags": ["Road Map"],
 				"security": []
 			}
 		}
