@@ -1,8 +1,10 @@
 title:        Road Map
 url:          http://road-map.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-road-map.png
+
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-roadmap.png
 logo_width:   80
 logo_bottom_padding: 10
+
 version:      1.1.1
 author:
   name:       'Kin Lane'
