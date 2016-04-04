@@ -1,4 +1,4 @@
-API Roadmap
+Authentication
 ==============
 
-This is a project for tracking on what is necessary to provide a roadmap for API operations, visit http://roadmap.apievangelist.com for more information.
+This is a project for tracking on providers are handling the authentication of APIs, visit http://authentication.apievangelist.com for more information.

@@ -1,6 +1,6 @@
-title:        Roadmap
-url:          http://roadmap.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-roadmap.png
+title:        Road Map
+url:          http://road-map.apievangelist.com
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-road-map.png
 logo_width:   80
 logo_bottom_padding: 10
 version:      1.1.1
@@ -9,7 +9,7 @@ author:
   email:      'info@apievangelist.com'
 markdown:     kramdown
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 paginate: 150
@@ -19,9 +19,9 @@ categories_path : /categories.html
 tags_path : /tags.html
 
 # Masthead title
-masthead_link: http://roadmap.apievangelist.com
-masthead_font_size: 85
-masthead_title: '{"Roadmap"}'
+masthead_link: http://road-map.apievangelist.com
+masthead_font_size: 80
+masthead_title: '{"Road Map"}'
 
 # Feature
 feature_title: API Design Providers Guide
@@ -30,17 +30,17 @@ feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/3
 feature_image_width: 45
 
 # Project
-project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-roadmap.png
-project_summary: Communicating about where an API platform is going, and where it has been is an important aspect of API operations. The process of planning, crafting, and sharing a roadmap helps providers organize their strategy, while also sharing their plans with API consumers, helping make sure all integrations are in sync with API operations. This research project looks to track on the best practices when it comes to API roadmaps.
+project_image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-highway.png
+project_summary: This is a project to keep track on how companies are publishing road maps around the operations of APIs. I'm looking to understand how they do it, and apply to my own APIs, while also sharing the approach with others along the way.
 
 # Navigation
 navigation:
   - label1: Home
     link1: /index.html
     size1: 80
-    extend: 0
-    label2:
-    link2:
+    extend: 1
+    label2: Two
+    link2: /index2.html
     size2: 0
     padding: 0
     decorate: 0
@@ -53,6 +53,15 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
+  - label1: Organizations
+    link1: /organizations/
+    size1: 80
+    extend: 1
+    label2: JSON
+    link2: /data/companies.json
+    size2: 60
+    padding: 0
+    decorate: 0
   - label1: Building Blocks
     link1: /building-blocks/
     size1: 80
@@ -61,7 +70,7 @@ navigation:
     link2: /data/buildingblocks.json
     size2: 60
     padding: 0
-    decorate: 0     
+    decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
     size1: 80

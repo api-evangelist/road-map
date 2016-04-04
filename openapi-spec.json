@@ -1,0 +1,587 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API Evangelist - Road Map API",
+    "description": "I try to make sure I share what I am planning for each API self contained within each project repository. I use the Github issues management for organizing my road map, issues, and road map. This is just a static cache of the Github issues for this project.",
+    "termsOfService": "http://kinlane.com/terms-of-service.html",
+    "version": "v1"
+  },
+  "host": "road-map.api.apievangelist.com",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/road-map/": {
+      "get": {
+        "summary": "Get Road Map",
+        "description": "retrieves all road map entries",
+        "operationId": "getRoadMap",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "query",
+            "description": "a text query to search across road map entries",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "host",
+            "description": "host for the road map entry",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/road_map"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Road Map"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      },
+      "post": {
+        "summary": "Add Road Map",
+        "description": "add road map",
+        "operationId": "addChangeLog",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "host",
+            "description": "host of the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "title",
+            "description": "title of the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "image",
+            "description": "image for the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "header",
+            "description": "header for the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "footer",
+            "description": "footer for the road map entry",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/road_map"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Road Map"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      }
+    },
+    "/road-map/{road_map_id}/": {
+      "delete": {
+        "summary": "Delete Road Map",
+        "description": "delete an road map entry",
+        "operationId": "deleteChangeLog",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "road_map_id",
+            "description": "id for the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "host",
+            "description": "host for the road map entry",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/road_map"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Road Map"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      },
+      "get": {
+        "summary": "Get Road Map",
+        "description": "retrieve a specific road map entry",
+        "operationId": "getChangeLogEntry",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "road_map_id",
+            "description": "id for the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/road_map"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Road Map"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      },
+      "put": {
+        "summary": "Update Road Map",
+        "description": "update an road map entry",
+        "operationId": "updateChangeLog",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "title",
+            "description": "title of the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "image",
+            "description": "image for the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "header",
+            "description": "header for the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "footer",
+            "description": "footer for the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "host",
+            "description": "host for the road map entry",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/road_map"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Road Map"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      }
+    },
+    "/road-map/{road_map_id}/keys/": {
+      "post": {
+        "summary": "Add Road Map Key",
+        "description": "Add road map key",
+        "operationId": "addChangeLogKey",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "road_map_id",
+            "description": "unique id of the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "name",
+            "description": "name of the road map entry key",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "description",
+            "description": "description for the road map entry key",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/keys"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Keys"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      }
+    },
+    "/road-map/{host}/default/": {
+      "post": {
+        "summary": "Set Default Road Map For Host",
+        "description": "set default road map for host",
+        "operationId": "setDefaultChangeLogForHost",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "road_map_id",
+            "description": "unique id of the road map entry",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "name",
+            "description": "name of the road map entry key",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "description",
+            "description": "description for the road map entry key",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/road_map"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Keys"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      }
+    },
+    "/road-map/{host}/": {
+      "get": {
+        "summary": "Get Road Map by Host",
+        "description": "retrieves all road_map entries by host",
+        "operationId": "getRoad Map",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "appid",
+            "description": "your appid for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "appkey",
+            "description": "your appkey for accessing the API",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "query",
+            "description": "a text query to search across road map entries",
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "in": "query",
+            "name": "host",
+            "description": "host for the road map entry",
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "road map response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/road_map"
+              }
+            }
+          }
+        },
+        "tags": [
+          "Road Map"
+        ],
+        "security": [
+          {
+            "appid": []
+          },
+          {
+            "appkey": []
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "road_map": {
+      "properties": {
+        "road_map_id": {
+          "description": "The unique id for the road map entry.",
+          "type": "string"
+        },
+        "title": {
+          "description": "The title for the road map entry.",
+          "type": "string"
+        },
+        "image": {
+          "description": "The image for the road map entry.",
+          "type": "string"
+        },
+        "header": {
+          "description": "The header for the road map entry.",
+          "type": "string"
+        },
+        "footer": {
+          "description": "The footer for the road map entry.",
+          "type": "string"
+        },
+        "keys": {
+          "description": "The keys for the road map entry.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/keys"
+          }
+        }
+      }
+    },
+    "keys": {
+      "properties": {
+        "key_id": {
+          "description": "The unique id for the road_map key.",
+          "type": "string"
+        },
+        "name": {
+          "description": "The unique id for the road map entry.",
+          "type": "string"
+        },
+        "description": {
+          "description": "The title for the road map entry.",
+          "type": "string"
+        },
+        "road_map_id": {
+          "description": "The unique id for the road map entry.",
+          "type": "string"
+        }
+      }
+    }
+  }
+}
