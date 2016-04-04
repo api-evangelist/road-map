@@ -42,25 +42,25 @@ navigation:
     size1: 80
     extend: 1
     label2: Two
-    link2: /index2.html
+    link2: dash/
     size2: 0
     padding: 0
     decorate: 0
   - label1: News
-    link1: /news/
+    link1: news/
     size1: 80
     extend: 1
     label2: RSS
-    link2: /blog.xml
+    link2: blog.xml
     size2: 60
     padding: 5
     decorate: 0
   - label1: Organizations
-    link1: /organizations/
+    link1: organizations/
     size1: 80
     extend: 1
     label2: JSON
-    link2: /data/companies.json
+    link2: /data/organizations.json
     size2: 60
     padding: 0
     decorate: 0
