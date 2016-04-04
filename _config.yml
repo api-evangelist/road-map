@@ -40,18 +40,27 @@ navigation:
   - label1: Home
     link1: /index.html
     size1: 80
-    extend: 1
-    label2: Two
-    link2: dash/
+    extend: 0
+    label2:
+    link2:
     size2: 0
     padding: 0
     decorate: 0
   - label1: News
-    link1: news/
+    link1: /news/
     size1: 80
     extend: 1
     label2: RSS
-    link2: blog.xml
+    link2: /blog.xml
+    size2: 60
+    padding: 5
+    decorate: 0
+  - label1: API
+    link1: /api/
+    size1: 80
+    extend: 1
+    label2: JSON
+    link2: apis.json
     size2: 60
     padding: 5
     decorate: 0
