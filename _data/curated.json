@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "x2aC9M8SAQ6E5kQdYqVYo0V4EVZmIsieLLblEO1234Gh53jikoQlAnz8UboDmr7vCEzgoDABRztVW7HrxMTRj5bw117117",
+		"item_date": "2016-11-09 00:00:00",
+		"title": "The Developer Feedback Loop",
+		"url": "https://dzone.com/articles/the-developer-feedback-loop",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "kXtj3693cBIv7Byo0Gn6ilRzLpDS7JV123KUC5z8zsZMK1aBgPcRVta8QKfcGuaQShlWpjDOhMIITae2OhnO0tbQ117117",
 		"item_date": "2016-09-22 10:28:00",
 		"title": "Suggestions and priorities are taken from the Tyk community and put into our open roadmap",
@@ -246,21 +254,5 @@
 		"url": "http://blog.catchpoint.com/2015/01/08/rum-resource-timing-api/",
 		"domain": "blog.catchpoint.com",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-catchpoint-com20150108rum-resource-timing-api.png"
-	},
-	{
-		"curated_id": "IspD123NJaalJ123I4u035tnYRSNX6nd4vKW8h116UVR8AaqG7f201MzT7yUkebaWw2pBU09S688rOUUkE11bleFQNYg117117",
-		"item_date": "2014-01-28 00:00:00",
-		"title": "Roadmaps Are So Yesterday",
-		"url": "http://blog.canvaslms.com/blog/bid/333941/Roadmaps-Are-So-Yesterday",
-		"domain": "blog.canvaslms.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/voice-instructure-comblogbid333941roadmaps-are-so-yesterday.png"
-	},
-	{
-		"curated_id": "rmf116UqDzBHWGyoVwuULLS116DpCQW1Kceb4aLzXFqam5P7d5Jg1wNuLvuaV2mbxb1CR3hEzNaDcY2cApu0KQ9WIA117117",
-		"item_date": "2013-04-15 00:00:00",
-		"title": "How to Sell Your Roadmap Without Selling Your Soul",
-		"url": "https://techcrunch.com/2013/04/15/sellroadmapnotsoul/",
-		"domain": "techcrunch.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/7499_feedproxy_google_com.png"
 	}
 ]
