@@ -1,16 +1,4 @@
 ---
-- curated_id: 52d77f4ff18df14833b24c81527178ff
-  item_date: "2013-04-15 00:00:00"
-  title: How to Sell Your Roadmap Without Selling Your Soul
-  url: https://techcrunch.com/2013/04/15/sellroadmapnotsoul/
-  domain: techcrunch.com
-  image: ""
-- curated_id: 9fdd89dd509056264935c039af00a074
-  item_date: "2014-01-28 00:00:00"
-  title: Roadmaps Are So Yesterday
-  url: http://blog.canvaslms.com/blog/bid/333941/Roadmaps-Are-So-Yesterday
-  domain: blog.canvaslms.com
-  image: ""
 - curated_id: 84c989ef879dddb20c0a3841613c0239
   item_date: "2015-01-08 00:00:00"
   title: How to Improve the Resource Timing API
@@ -23,16 +11,16 @@
   url: https://strongloop.com/strongblog/an-update-on-the-loopback-roadmap-and-backlog/
   domain: strongloop.com
   image: ""
-- curated_id: 75f378b0b915268dd18cca585485415b
-  item_date: "2016-01-20 00:00:00"
-  title: Road mapping Magnolia
-  url: https://www.magnolia-cms.com/blogs/antti-hietala/detail~@road-mapping-magnolia~.html
-  domain: www.magnolia-cms.com
-  image: ""
 - curated_id: 235e93ce7cea58fad394e61e6c5fc230
   item_date: "2016-01-20 00:00:00"
   title: Should a roadmap be public?
   url: https://www.magnolia-cms.com/blogs/antti-hietala/detail~@should-a-roadmap-be-public-~.html
+  domain: www.magnolia-cms.com
+  image: ""
+- curated_id: 75f378b0b915268dd18cca585485415b
+  item_date: "2016-01-20 00:00:00"
+  title: Road mapping Magnolia
+  url: https://www.magnolia-cms.com/blogs/antti-hietala/detail~@road-mapping-magnolia~.html
   domain: www.magnolia-cms.com
   image: ""
 - curated_id: 8b3b27c43556e2f08ae39c165f7a825f
@@ -176,5 +164,36 @@
   title: The Developer Feedback Loop
   url: https://dzone.com/articles/the-developer-feedback-loop
   domain: dzone.com
+  image: ""
+- curated_id: 5409793a82fd617d9000d8d4b5ac8479
+  item_date: "2017-01-19 00:00:00"
+  title: Wordpress.org Releases Plans For Customization In 2017
+  url: https://torquemag.io/2017/01/wordpress-org-releases-plans-customization-2017/
+  domain: torquemag.io
+  image: ""
+- curated_id: 42ed0eef36cdc305f475bdf15f691bfd
+  item_date: "2017-02-06 00:00:00"
+  title: 5 Tips for an Effective Agile Product Roadmap
+  url: https://nulab-inc.com/blog/backlog/5-tips-effective-agile-product-roadmap/
+  domain: nulab-inc.com
+  image: ""
+- curated_id: 4d18acb5dad4f085446b7741ae0d282d
+  item_date: "2017-03-07 00:00:00"
+  title: Technology Managers Roadmap to Cloud Control
+  url: http://www.avnetwork.com/avnetwork/technology-managers-roadmap-to-cloud-control/125954
+  domain: www.avnetwork.com
+  image: ""
+- curated_id: 3ee1efae1d6442e3b7cf25aba6beca6d
+  item_date: "2017-04-06 00:00:00"
+  title: Twitter unveils a new API platform, roadmap and vision for its developer
+    community
+  url: https://techcrunch.com/2017/04/06/twitter-unveils-a-new-api-platform-roadmap-and-vision-for-its-developer-community/
+  domain: techcrunch.com
+  image: ""
+- curated_id: 9f947036867a97c66d569cc254afd973
+  item_date: "2017-04-20 09:52:56"
+  title: "See what\u2019s coming soon on Postman\u2019s product roadmap"
+  url: http://blog.getpostman.com/2017/04/20/see-whats-coming-soon-on-postmans-product-roadmap/
+  domain: blog.getpostman.com
   image: ""
 ...
