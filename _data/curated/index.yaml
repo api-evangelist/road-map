@@ -17,16 +17,16 @@
   url: https://strongloop.com/strongblog/an-update-on-the-loopback-roadmap-and-backlog/
   domain: strongloop.com
   image: ""
-- curated_id: 235e93ce7cea58fad394e61e6c5fc230
-  item_date: "2016-01-20 00:00:00"
-  title: Should a roadmap be public?
-  url: https://www.magnolia-cms.com/blogs/antti-hietala/detail~@should-a-roadmap-be-public-~.html
-  domain: www.magnolia-cms.com
-  image: ""
 - curated_id: 75f378b0b915268dd18cca585485415b
   item_date: "2016-01-20 00:00:00"
   title: Road mapping Magnolia
   url: https://www.magnolia-cms.com/blogs/antti-hietala/detail~@road-mapping-magnolia~.html
+  domain: www.magnolia-cms.com
+  image: ""
+- curated_id: 235e93ce7cea58fad394e61e6c5fc230
+  item_date: "2016-01-20 00:00:00"
+  title: Should a roadmap be public?
+  url: https://www.magnolia-cms.com/blogs/antti-hietala/detail~@should-a-roadmap-be-public-~.html
   domain: www.magnolia-cms.com
   image: ""
 - curated_id: 8b3b27c43556e2f08ae39c165f7a825f
@@ -41,18 +41,18 @@
   url: https://dzone.com/articles/roadmap-for-apache-camel-218-and-towards-camel-3
   domain: dzone.com
   image: ""
+- curated_id: 05ceed4d1b9c2a2e588a48dfa5c1f40b
+  item_date: "2016-04-07 00:00:00"
+  title: The Slack Platform Roadmap
+  url: https://medium.com/slack-developer-blog/the-slack-platform-roadmap-34067b054177
+  domain: medium.com
+  image: ""
 - curated_id: fbd3dd670ffae14a6bafe8dc4e46c528
   item_date: "2016-04-07 00:00:00"
   title: Slack just opened up its Trello board so you can see what it?s going to build
     next
   url: http://thenextweb.com/apps/2016/04/07/slack-roadmap/
   domain: thenextweb.com
-  image: ""
-- curated_id: 05ceed4d1b9c2a2e588a48dfa5c1f40b
-  item_date: "2016-04-07 00:00:00"
-  title: The Slack Platform Roadmap
-  url: https://medium.com/slack-developer-blog/the-slack-platform-roadmap-34067b054177
-  domain: medium.com
   image: ""
 - curated_id: a21bd5c5bdc912fde03c4b63015d20c5
   item_date: "2016-04-07 11:01:01"
@@ -237,5 +237,17 @@
   title: The Hidden Roadmap
   url: https://medium.com/p/ab1d56fa253a
   domain: medium.com
+  image: ""
+- curated_id: 9KT49fmuko1tn2wYTNISIGZ+1/Tns6mmobs0me9rgQ4=_16050b3513a:2cd6d7:9d76d584
+  item_date: "2017-12-13 08:26:40"
+  title: How sales teams add value to a product roadmap
+  url: http://blog.intercom.com/?p=14109
+  domain: blog.intercom.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_160639add58:8ad31f:3c0bb656
+  item_date: "2017-12-16 22:01:01"
+  title: Tips for Agile Product Roadmaps and Product Roadmap Examples
+  url: https://dzone.com/articles/1901996
+  domain: dzone.com
   image: ""
 ...
