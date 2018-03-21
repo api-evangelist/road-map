@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: SendGrid Managing Their OpenAPI Using Github
-date: 2018-03-20T09:00:00.000Z
+date: 2018-03-20T11:00:00.000Z
 tags:
   - API Evangelist
   - Definition
