@@ -1,0 +1,18 @@
+{
+  "id": "pb_item_01HZX9Q4F1",
+  "title": "Single sign-on with Okta",
+  "description": "Allow customers to sign in to the product using Okta-managed identities, including SCIM-based provisioning and group sync.",
+  "status": "planned",
+  "timeframe": "next",
+  "tags": ["security", "enterprise", "identity"],
+  "product_area": "Identity",
+  "owner": "Platform Team",
+  "target_release": "2026.Q3",
+  "target_date": "2026-09-15",
+  "visibility": "public",
+  "url": "https://roadmap.example.com/items/sso-okta",
+  "vote_count": 142,
+  "created_at": "2026-04-02T15:21:00Z",
+  "updated_at": "2026-05-12T10:04:00Z",
+  "source_platform": "Productboard"
+}

@@ -1,0 +1,266 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Road Map
+  description: Vocabulary for the road map topic, covering public product road map publishing, feature voting, feedback aggregation, release announcements, and product discovery surfaces.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Productboard Public API
+      namespace: productboard
+      status: active
+    - name: Canny API
+      namespace: canny
+      status: active
+    - name: Aha.io API
+      namespace: aha
+      status: active
+    - name: Linear GraphQL API
+      namespace: linear
+      status: active
+    - name: Jira Cloud API
+      namespace: jira
+      status: active
+    - name: LaunchNotes API
+      namespace: launchnotes
+      status: active
+
+  resources:
+    - name: roadmap-items
+      description: Public-facing road map items representing features, initiatives, or releases the team plans to ship
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - publish
+    - name: feature-votes
+      description: Customer votes, upvotes, or weighted demand signals attached to road map items or feature requests
+      actions:
+        - list
+        - get
+        - create
+        - delete
+    - name: feedback-threads
+      description: Customer feedback threads captured from public portals, in-app widgets, CRMs, and CSM workflows, attached to road map items
+      actions:
+        - list
+        - get
+        - create
+        - attach
+    - name: release-milestones
+      description: Releases, milestones, or planning buckets that group road map items by ship window
+      actions:
+        - list
+        - get
+        - create
+        - update
+    - name: changelog-entries
+      description: Customer-facing changelog or release note entries published when a road map item ships
+      actions:
+        - list
+        - get
+        - create
+        - publish
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Create a new road map item, vote, thread, milestone, or changelog entry
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: publish
+      description: Publish a road map item or changelog entry to a public surface
+      httpMethod: POST
+      pattern: write
+    - name: attach
+      description: Attach a feedback thread or vote to a road map item
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    core:
+      - name: RoadmapItem
+        description: A single item on a public product road map
+        properties:
+          - id
+          - title
+          - description
+          - status
+          - timeframe
+          - tags
+          - product_area
+          - owner
+          - target_release
+          - target_date
+          - visibility
+          - url
+          - vote_count
+          - created_at
+          - updated_at
+          - source_platform
+      - name: FeatureVote
+        description: A customer vote attached to a road map item
+        properties:
+          - id
+          - item_id
+          - voter
+          - weight
+          - sentiment
+          - comment
+          - source
+          - created_at
+          - source_platform
+
+  enums:
+    roadmap_item_statuses:
+      - idea
+      - under_review
+      - planned
+      - in_progress
+      - shipped
+      - wont_do
+    roadmap_timeframes:
+      - now
+      - next
+      - later
+      - no_date
+    visibility_levels:
+      - public
+      - private
+      - customer_only
+    vote_sources:
+      - public_portal
+      - in_app_widget
+      - csm_logged
+      - import
+      - api
+    sentiments:
+      - positive
+      - neutral
+      - negative
+
+capability:
+  workflows:
+    - name: Public Road Map Publishing
+      description: Curate a slice of internal planning data and publish it on a customer-facing road map surface
+      apis:
+        - productboard
+        - aha
+        - launchnotes
+      personas:
+        - Product Manager
+      domains:
+        - Public Road Map
+    - name: Feature Request Voting
+      description: Capture customer feature requests through a public portal, collect votes, and surface high-signal items to product planning
+      apis:
+        - canny
+        - productboard
+      personas:
+        - Customer
+        - Product Manager
+      domains:
+        - Feature Voting
+    - name: Engineering Plan to Public Road Map Sync
+      description: Sync filtered work items from engineering trackers to a public-facing road map
+      apis:
+        - linear
+        - jira
+      personas:
+        - Engineering Manager
+        - Product Manager
+      domains:
+        - Public Road Map
+    - name: Changelog and Launch Announcements
+      description: Convert closed road map items into changelog entries and announce them to customers in-app and via email
+      apis:
+        - launchnotes
+        - announcekit
+        - beamer
+      personas:
+        - Product Marketing
+      domains:
+        - Release Communication
+
+  personas:
+    - id: product-manager
+      name: Product Manager
+      description: Product managers curating road map items, prioritizing votes, and publishing public road maps
+      workflows:
+        - Public Road Map Publishing
+        - Feature Request Voting
+        - Engineering Plan to Public Road Map Sync
+    - id: customer
+      name: Customer
+      description: End users and customers submitting feature requests, casting votes, and reading the public road map
+      workflows:
+        - Feature Request Voting
+    - id: engineering-manager
+      name: Engineering Manager
+      description: Engineering leads owning the underlying plan, cycles, and milestones that back the public road map
+      workflows:
+        - Engineering Plan to Public Road Map Sync
+    - id: product-marketing
+      name: Product Marketing
+      description: Product marketers turning shipped road map items into changelog entries and launch announcements
+      workflows:
+        - Changelog and Launch Announcements
+
+  domains:
+    - name: Public Road Map
+      description: Customer-facing surfaces that publish what is now, next, and later
+    - name: Feature Voting
+      description: Portals and widgets that collect and rank customer feature requests
+    - name: Release Communication
+      description: Changelog, in-app announcement, and launch communication surfaces
+    - name: Product Discovery
+      description: Public discovery surfaces where new products and launches get surfaced to a broader audience
+
+crossReference:
+  - resource: roadmap-items
+    operations:
+      - list
+      - get
+      - create
+      - publish
+    workflows:
+      - Public Road Map Publishing
+      - Engineering Plan to Public Road Map Sync
+    personas:
+      - Product Manager
+      - Engineering Manager
+  - resource: feature-votes
+    operations:
+      - list
+      - create
+    workflows:
+      - Feature Request Voting
+    personas:
+      - Customer
+      - Product Manager
+  - resource: changelog-entries
+    operations:
+      - create
+      - publish
+    workflows:
+      - Changelog and Launch Announcements
+    personas:
+      - Product Marketing

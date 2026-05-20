@@ -1,0 +1,17 @@
+{
+  "id": "vote_01HZXB2K7M",
+  "item_id": "pb_item_01HZX9Q4F1",
+  "voter": {
+    "id": "user_01HZX7M3",
+    "email": "anna@example.com",
+    "name": "Anna Patel",
+    "company": "Acme Robotics",
+    "company_id": "acct_4421"
+  },
+  "weight": 5,
+  "sentiment": "positive",
+  "comment": "Blocker for our security review, need SSO before we can roll out company-wide.",
+  "source": "public_portal",
+  "created_at": "2026-05-10T14:08:00Z",
+  "source_platform": "Canny"
+}

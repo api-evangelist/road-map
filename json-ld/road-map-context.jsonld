@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "rm": "https://api-evangelist.github.io/road-map/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "RoadmapItem": "rm:RoadmapItem",
+    "FeatureVote": "rm:FeatureVote",
+    "ReleaseMilestone": "rm:ReleaseMilestone",
+    "FeedbackThread": "rm:FeedbackThread",
+
+    "id": "schema:identifier",
+    "title": "schema:name",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+
+    "status": {
+      "@id": "rm:status",
+      "@type": "xsd:string"
+    },
+    "timeframe": {
+      "@id": "rm:timeframe",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "product_area": {
+      "@id": "rm:productArea",
+      "@type": "xsd:string"
+    },
+    "owner": {
+      "@id": "schema:author",
+      "@type": "xsd:string"
+    },
+    "target_release": {
+      "@id": "rm:targetRelease",
+      "@type": "xsd:string"
+    },
+    "target_date": {
+      "@id": "rm:targetDate",
+      "@type": "xsd:date"
+    },
+    "visibility": {
+      "@id": "rm:visibility",
+      "@type": "xsd:string"
+    },
+    "vote_count": {
+      "@id": "rm:voteCount",
+      "@type": "xsd:integer"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "updated_at": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:dateTime"
+    },
+    "source_platform": {
+      "@id": "rm:sourcePlatform",
+      "@type": "xsd:string"
+    },
+
+    "item_id": {
+      "@id": "rm:itemId",
+      "@type": "xsd:string"
+    },
+    "voter": {
+      "@id": "rm:voter",
+      "@type": "@id"
+    },
+    "weight": {
+      "@id": "rm:weight",
+      "@type": "xsd:double"
+    },
+    "sentiment": {
+      "@id": "rm:sentiment",
+      "@type": "xsd:string"
+    },
+    "comment": {
+      "@id": "schema:text",
+      "@type": "xsd:string"
+    },
+    "source": {
+      "@id": "rm:source",
+      "@type": "xsd:string"
+    },
+    "email": "schema:email",
+    "company": "schema:affiliation",
+    "company_id": {
+      "@id": "rm:companyId",
+      "@type": "xsd:string"
+    }
+  }
+}

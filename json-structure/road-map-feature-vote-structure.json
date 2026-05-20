@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/road-map/refs/heads/main/json-structure/road-map-feature-vote-structure.json",
+  "name": "FeatureVote",
+  "description": "A single vote, upvote, or weighted demand signal cast by a customer on a road map item or feature request.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier for the vote within the source platform.",
+      "example": "vote_01HZXB2K7M"
+    },
+    "item_id": {
+      "type": "string",
+      "description": "Identifier of the road map item or feature request the vote is attached to.",
+      "example": "pb_item_01HZX9Q4F1"
+    },
+    "voter": {
+      "type": "object",
+      "description": "Information about the person or account casting the vote.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "user_01HZX7M3"
+        },
+        "email": {
+          "type": "email",
+          "example": "anna@example.com"
+        },
+        "name": {
+          "type": "string",
+          "example": "Anna Patel"
+        },
+        "company": {
+          "type": "string",
+          "example": "Acme Robotics"
+        },
+        "company_id": {
+          "type": "string",
+          "example": "acct_4421"
+        }
+      }
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Vote weight, often derived from account size, plan tier, or ARR.",
+      "example": 5
+    },
+    "sentiment": {
+      "type": "string",
+      "description": "Sentiment expressed alongside the vote.",
+      "enum": [
+        "positive",
+        "neutral",
+        "negative"
+      ],
+      "example": "positive"
+    },
+    "comment": {
+      "type": "string",
+      "description": "Optional comment left by the voter explaining the vote.",
+      "example": "Blocker for our security review, need SSO before we can roll out company-wide."
+    },
+    "source": {
+      "type": "string",
+      "description": "Channel the vote came from.",
+      "enum": [
+        "public_portal",
+        "in_app_widget",
+        "csm_logged",
+        "import",
+        "api"
+      ],
+      "example": "public_portal"
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "When the vote was cast.",
+      "example": "2026-05-10T14:08:00Z"
+    },
+    "source_platform": {
+      "type": "string",
+      "description": "Name of the platform of record for this vote.",
+      "example": "Canny"
+    }
+  },
+  "required": [
+    "id",
+    "item_id",
+    "created_at"
+  ]
+}

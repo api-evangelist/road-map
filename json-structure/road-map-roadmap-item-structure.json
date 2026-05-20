@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/road-map/refs/heads/main/json-structure/road-map-roadmap-item-structure.json",
+  "name": "RoadmapItem",
+  "description": "A single item on a public product road map, representing a feature, initiative, or release the product team plans to ship.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier for the road map item within the source platform.",
+      "example": "pb_item_01HZX9Q4F1"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short, customer-facing title for the road map item.",
+      "example": "Single sign-on with Okta"
+    },
+    "description": {
+      "type": "string",
+      "description": "Longer customer-facing description of the road map item.",
+      "example": "Allow customers to sign in to the product using Okta-managed identities, including SCIM-based provisioning."
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle status of the road map item.",
+      "enum": [
+        "idea",
+        "under_review",
+        "planned",
+        "in_progress",
+        "shipped",
+        "wont_do"
+      ],
+      "example": "planned"
+    },
+    "timeframe": {
+      "type": "string",
+      "description": "Road map bucket the item lives in.",
+      "enum": [
+        "now",
+        "next",
+        "later",
+        "no_date"
+      ],
+      "example": "next"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags used to categorize the road map item.",
+      "items": {
+        "type": "string"
+      },
+      "example": [
+        "security",
+        "enterprise"
+      ]
+    },
+    "product_area": {
+      "type": "string",
+      "description": "Product area or component this item belongs to.",
+      "example": "Identity"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Person or team accountable for delivering the item.",
+      "example": "Platform Team"
+    },
+    "target_release": {
+      "type": "string",
+      "description": "Planned release or milestone the item is associated with.",
+      "example": "2026.Q3"
+    },
+    "target_date": {
+      "type": "date",
+      "description": "Optional planned ship date for the item.",
+      "example": "2026-09-15"
+    },
+    "visibility": {
+      "type": "string",
+      "description": "Whether the item is visible on the public road map or only internally.",
+      "enum": [
+        "public",
+        "private",
+        "customer_only"
+      ],
+      "example": "public"
+    },
+    "url": {
+      "type": "uri",
+      "description": "URL where the road map item can be viewed publicly.",
+      "example": "https://roadmap.example.com/items/sso-okta"
+    },
+    "vote_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Aggregate number of customer votes attached to the item.",
+      "example": 142
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "When the item was created.",
+      "example": "2026-04-02T15:21:00Z"
+    },
+    "updated_at": {
+      "type": "datetime",
+      "description": "When the item was last updated.",
+      "example": "2026-05-12T10:04:00Z"
+    },
+    "source_platform": {
+      "type": "string",
+      "description": "Name of the platform of record for this road map item.",
+      "example": "Productboard"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "status",
+    "visibility"
+  ]
+}

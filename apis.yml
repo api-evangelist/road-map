@@ -1,0 +1,125 @@
+aid: road-map
+name: Road Map
+description: >-
+  An index and topic collection covering public product road map publishing, feature voting, customer feedback aggregation, and product discovery surfaces. Public road map platforms expose what a
+  product team is building, what is shipping next, and what is being considered, while feature voting and feedback portals route customer signal back into product planning. This collection
+  brings together dedicated road map and feedback platforms like Productboard, Canny, Aha.io, Pendo, and Userpilot, alongside product work management systems like Linear, Jira, Trello, and
+  Notion that increasingly expose road map and planning surfaces, and announcement and discovery surfaces like LaunchNotes, AnnounceKit, Beamer, and Product Hunt that publish what shipped.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Roadmap
+- Product Discovery
+- Feature Voting
+- Public Roadmap
+- Customer Feedback
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/road-map/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Aha.io
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/apis.yml
+- name: AnnounceKit
+  url: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/apis.yml
+- name: Asana
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/apis.yml
+- name: Atlassian Jira
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/apis.yml
+- name: Basecamp
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/apis.yml
+- name: Beamer
+  url: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/apis.yml
+- name: BetaList
+  url: https://raw.githubusercontent.com/api-evangelist/betalist/refs/heads/main/apis.yml
+- name: Canny
+  url: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/apis.yml
+- name: ClickUp
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/apis.yml
+- name: GitHub
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
+- name: Jira
+  url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/apis.yml
+- name: LaunchNotes
+  url: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/apis.yml
+- name: Linear
+  url: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/apis.yml
+- name: Loops
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/apis.yml
+- name: Monday.com
+  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/apis.yml
+- name: Notion
+  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/apis.yml
+- name: Pendo
+  url: https://raw.githubusercontent.com/api-evangelist/pendo/refs/heads/main/apis.yml
+- name: Productboard
+  url: https://raw.githubusercontent.com/api-evangelist/productboard/refs/heads/main/apis.yml
+- name: Product Hunt
+  url: https://raw.githubusercontent.com/api-evangelist/product-hunt/refs/heads/main/apis.yml
+- name: Shortcut
+  url: https://raw.githubusercontent.com/api-evangelist/shortcut/refs/heads/main/apis.yml
+- name: Startup Buffer
+  url: https://raw.githubusercontent.com/api-evangelist/startup-buffer/refs/heads/main/apis.yml
+- name: Trello
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/apis.yml
+- name: Userback
+  url: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/apis.yml
+- name: Userpilot
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Public Road Map Publishing
+    description: Dedicated road map platforms like Productboard, Aha.io, and LaunchNotes expose a public view of what is now, next, and later, giving customers a structured window into product direction without leaking internal tracker noise.
+  - name: Feature Voting and Idea Capture
+    description: Feature voting portals like Canny, Productboard, and Userback collect customer ideas and votes, then rank and route them back to product teams as prioritized signal.
+  - name: Release and Milestone Surfaces
+    description: Road map APIs expose releases, milestones, and ship dates as first-class resources, letting downstream sites, customer success tools, and changelogs syndicate what shipped and what is coming.
+  - name: Feedback Thread Aggregation
+    description: Platforms like Canny, Productboard, and Pendo aggregate feedback threads from email, in-app widgets, and CRMs, then attach those threads to road map items so impact and demand stay attached to features.
+  - name: Work Management Road Maps
+    description: Work management tools like Linear, Jira, Trello, Asana, ClickUp, and Monday.com expose plan, cycle, and milestone APIs that increasingly double as the source of truth for public road maps.
+  - name: Changelog and Discovery Channels
+    description: Announcement platforms like LaunchNotes, AnnounceKit, Beamer, and Product Hunt publish what shipped, turning closed road map items into customer-facing changelog entries and product discovery surfaces.
+- type: UseCases
+  data:
+  - name: Customer-Facing Public Road Map
+    description: Product teams publish a curated public road map via Productboard, Aha.io, or Canny so prospects, customers, and partners can see what is shipping and what is being considered.
+  - name: Feature Request Voting Portal
+    description: Companies operate a Canny or Productboard portal where customers submit and upvote feature requests, with the highest-signal items getting promoted to the public road map.
+  - name: Sales and Customer Success Visibility
+    description: Customer success and sales teams pull live road map data via API into CRMs, briefings, and proposals so customer conversations stay grounded in real ship dates rather than aspirational decks.
+  - name: Engineering Plan to Public Road Map Sync
+    description: Engineering teams running on Linear, Jira, or Shortcut sync a filtered slice of their internal plans to a public road map surface, keeping internal velocity and external promises in lockstep.
+  - name: Changelog and Launch Announcements
+    description: Teams use LaunchNotes, AnnounceKit, or Beamer to convert closed road map items into changelog entries and in-app announcements that close the loop with users who voted for the work.
+  - name: AI Agent Road Map Awareness
+    description: AI agents and copilots query road map APIs to answer customer questions about feature availability, ship dates, and parity gaps using grounded, governed data rather than scraped marketing pages.
+- type: Integrations
+  data:
+  - name: Productboard
+    description: Product management platform with public road map, feature portals, and customer feedback aggregation tied to a prioritized planning surface.
+  - name: Canny
+    description: Customer feedback and feature voting platform with public road map views, changelog, and Intercom, Zendesk, and Slack integrations.
+  - name: Aha.io
+    description: Road map and strategy platform exposing releases, features, ideas, and goals via a structured product planning API.
+  - name: Linear
+    description: Software project tracker exposing projects, cycles, roadmaps, and milestones via GraphQL, used as the source of truth for many public road maps.
+  - name: Jira
+    description: Atlassian work tracker exposing plans, advanced road maps, and release versions via REST and Forge APIs for public road map syndication.
+  - name: Pendo
+    description: Product experience platform with road map, feedback, and in-app guides tied to product usage analytics.
+  - name: LaunchNotes
+    description: Public road map, changelog, and release communication platform that publishes what shipped and what is coming with API-driven syndication.
+  - name: Trello
+    description: Visual board tool from Atlassian widely used as a lightweight public road map via shared boards and the Trello REST API.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com
