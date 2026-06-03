@@ -1,0 +1,25 @@
+title: Road Map
+description: An index and topic collection covering public product road map publishing,
+  feature voting, customer feedback aggregation, and product discovery surfaces. Public
+  road map platforms expose what a product team is building, what is shipping next,
+  and what is being considered, while feature voting and feedback portals route customer
+  signal back into product planning. This collection brings together dedicated road
+  map and feedback platforms like Productboard, Canny, Aha.io, Pendo, and Userpilot,
+  alongside product work management systems like Linear, Jira, Trello, and Notion
+  that increasingly expose road map and planning surfaces, and announcement and discovery
+  surfaces like LaunchNotes, AnnounceKit, Beamer, and Product Hunt that publish what
+  shipped.
+url: https://road-map.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
