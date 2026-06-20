@@ -6,7 +6,7 @@ description: >-
   brings together dedicated road map and feedback platforms like Productboard, Canny, Aha.io, Pendo, and Userpilot, alongside product work management systems like Linear, Jira, Trello, and
   Notion that increasingly expose road map and planning surfaces, and announcement and discovery surfaces like LaunchNotes, AnnounceKit, Beamer, and Product Hunt that publish what shipped.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Roadmap
 - Product Discovery
