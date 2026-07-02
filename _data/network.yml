@@ -1,0 +1,30 @@
+related:
+- name: API Evangelist Discovery
+  url: https://discovery.apievangelist.com
+  icon: https://discovery.apievangelist.com/icon.png
+  description: Mapping the technical details of API operations to the human standard.
+- name: SaaS Management
+  url: https://saas-management.apievangelist.com
+  icon: https://saas-management.apievangelist.com/icon.png
+  description: SaaS Management covers the tools, platforms, and practices used by organizations to discover,
+    manage, optimize, and secure their portfolio of SaaS applications. The global SaaS…
+- name: Microservices
+  url: https://microservices.apievangelist.com
+  icon: https://microservices.apievangelist.com/icon.png
+  description: An index of microservices architecture frameworks, service discovery, resilience, messaging,
+    workflow orchestration, and distributed systems tooling repositories.
+- name: Support
+  url: https://support.apievangelist.com
+  icon: https://support.apievangelist.com/icon.png
+  description: An index and topic collection covering customer support, help desk, ticketing, knowledge
+    base, and live chat APIs. Customer support platforms power the interfaces and back-office…
+- name: Visualization
+  url: https://visualization.apievangelist.com
+  icon: https://visualization.apievangelist.com/icon.png
+  description: An index and topic collection covering data visualization, charts, dashboards, business
+    intelligence (BI), and reporting APIs. Data visualization platforms turn raw data into…
+- name: Transparency
+  url: https://transparency.apievangelist.com
+  icon: https://transparency.apievangelist.com/icon.png
+  description: An index and topic collection covering public-facing transparency surfaces across the API
+    and platform ecosystem. Transparency in this context refers to the mechanisms platforms…
