@@ -8,6 +8,12 @@ description: >-
 type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
+- Roadmaps
+- Product Discovery
+- Feature Voting
+- Public Roadmap
+- Customer Feedback
+tags_raw:
 - Roadmap
 - Product Discovery
 - Feature Voting
