@@ -1,5 +1,6 @@
 aid: road-map
 name: Road Map
+kind: topic
 description: >-
   An index and topic collection covering public product road map publishing, feature voting, customer feedback aggregation, and product discovery surfaces. Public road map platforms expose what a
   product team is building, what is shipping next, and what is being considered, while feature voting and feedback portals route customer signal back into product planning. This collection
