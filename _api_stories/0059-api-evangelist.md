@@ -1,7 +1,7 @@
 ---
-title: Why I Am Doubling Down on API Discovery and Governance
-link: http://apievangelist.com/2026/07/17/doubling-down-on-api-discovery-and-governance/
-published: '2026-07-17'
+title: OpenAPI Overlays for Splitting Public and Internal Documentation
+link: http://apievangelist.com/2026/07/21/openapi-overlays-for-public-vs-internal-docs/
+published: '2026-07-21'
 provider: api-evangelist
 repo: https://github.com/api-evangelist/api-evangelist
 domain: apievangelist.com
