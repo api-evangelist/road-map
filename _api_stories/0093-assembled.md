@@ -1,5 +1,5 @@
 ---
-title: 'Assembled MCP use cases: 3 workflows running in production'
+title: 'Assembled MCP Use Cases: 3 Workflows in Production'
 link: https://www.assembled.com/blog/assembled-mcp-use-cases
 published: '2026-06-15'
 provider: assembled

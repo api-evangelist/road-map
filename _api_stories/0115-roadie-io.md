@@ -1,8 +1,7 @@
 ---
-title: MCP Servers for Roadie, AI Search enters beta, vibe code your own UI inside
-  Roadie, and the launch of the Scheduler page
-link: https://roadie.io/blog/ai-cometh/
-published: '2025-08-04'
+title: Supercharge your GitLab setup with Roadie's Internal Developer Portal
+link: https://roadie.io/blog/supercharge-your-gitlab-setup/
+published: '2026-02-19'
 provider: roadie-io
 repo: https://github.com/api-evangelist/roadie-io
 domain: roadie.io
